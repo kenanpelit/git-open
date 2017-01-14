@@ -67,15 +67,7 @@ function url()
   fi
 
   if [[ $(git config remote.origin.url) =~ "bitbucket" ]]; then
-<<<<<<< HEAD
-    echo "https://bitbucket.com/${repo%%.*}/branch/"
-=======
     echo "https://bitbucket.org/${repo%%.*}/branch/"
-  fi
-
-  if [[ $(git config remote.origin.url) =~ "gitlab" ]]; then
-    echo "https://gitlab.com/${repo%.*}/tree/"
->>>>>>> 537ba995019b8c819808bd12544d563986d67b34
   fi
 
   if [[ $(git config remote.origin.url) =~ "gitlab" ]]; then

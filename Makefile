@@ -1,4 +1,4 @@
-DESTDIR  = ~/.scripts
+DESTDIR  = /usr/local/bin
 
 PROGRAM  = git-open
 
